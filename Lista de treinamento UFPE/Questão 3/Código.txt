@@ -1,0 +1,7 @@
+L = int(input())
+A = int(input())
+
+L = L*L
+B = L*A
+
+print(B)

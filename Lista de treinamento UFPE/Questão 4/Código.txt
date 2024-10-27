@@ -1,0 +1,10 @@
+A = int(input())
+L = int(input())
+P = int(input())
+H = int(input())
+
+x = (A + L + (abs(A - L))) / 2
+x = (x + P + (abs(x - P))) / 2
+x = int(x * H)
+
+print(x)

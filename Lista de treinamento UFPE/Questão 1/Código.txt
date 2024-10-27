@@ -1,0 +1,6 @@
+from math import floor
+packs = int(input())
+V = packs/3
+F = packs%3
+print(floor(V))
+print(F)

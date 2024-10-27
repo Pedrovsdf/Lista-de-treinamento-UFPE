@@ -1,0 +1,26 @@
+N = str(input())
+S = str(input())
+
+K = N+S
+K2 = K
+underline = '_'
+i = 0
+
+while i == 0:
+
+    for x in range(0, len(underline)):
+        K2 = K2.replace(underline[x], "")
+
+    if len(K) >= 3 and len(K) <= 16 and K2.isalnum() and len(S) != 0 and len(N) != 0:
+        for x in K:
+            if x.isspace():
+                print('Erro')
+        else:
+            print(K)
+            i = 1
+    else:
+        print('Digite um nome válido.')
+        N = str(input())
+        S = str(input())
+        K = N + S
+        K2 = K

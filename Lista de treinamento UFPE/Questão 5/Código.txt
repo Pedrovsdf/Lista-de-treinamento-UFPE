@@ -1,0 +1,6 @@
+D = int(input())
+C = int(input())
+H = D*3
+T = int((((60*H)*12000)/20)/C)
+
+print(T)

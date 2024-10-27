@@ -1,0 +1,12 @@
+import math
+
+X = int(input())
+Z = int(input())
+
+H = float(math.sqrt(math.pow((X - 34), 2) + math.pow((Z - 220), 2)))
+K = float(math.sqrt(math.pow((X - 0), 2) + math.pow((Z - 0), 2)))
+S = float(math.sqrt(math.pow((X - 140), 2) + math.pow((Z - 456), 2)))
+
+print(f'Distancia para Hogsmeade: {H:.2f}')
+print(f'Distancia para Kakariko: {K:.2f}')
+print(f'Distancia para Solitude: {S:.2f}')
